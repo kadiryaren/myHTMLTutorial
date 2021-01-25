@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <table border="1px">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Pazartesi</th>
+                <th>Sali</th>
+                <th>Carsamba</th>
+                <th>persembe</th>
+                <th>cuma</th>
+            </tr>
+
+        </thead>
+        <style>
+            .textAlign{
+                text-align: center;
+            }
+        </style>
+        <tbody>
+            <tr>
+                <td class="textAlign">08:00</td>
+                <td class="textAlign" colspan="5">HAZIRLIK</td>
+            </tr>
+            <tr >
+                <td >08:00-09:00</td>
+                <td class="textAlign" colspan="5">YOLCULUK</td>
+            </tr>
+            <tr>
+                <td>09:00-15:00</td>
+                <td class="textAlign" colspan="5">OKUL</td>
+            </tr>
+            <tr>
+                <td>15:00-18:00</td>
+                <td class="textAlign" rowspan="3">EV</td>
+                <td class="textAlign" rowspan="2">DERSHANE</td>
+                <td rowspan="3" class="textAlign">BULUSMA</td>
+                <td rowspan="2" class="textAlign">DERSHANE</td>
+                <td class="textAlign" rowspan="2">GEZME</td>
+            </tr>
+            <tr>
+                <td>18:00-21:00</td>
+            </tr>
+            <tr>
+                <td>21:00-23:00</td>
+                <td class="textAlign">EV</td>
+                <td class="textAlign" colspan="2">TEST COZME</td>
+            </tr>
+            <tr>
+                <td>23:00-00:00</td>
+                <td colspan="5" class="textAlign"> UYUMA MODU</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+</body>
+</html>

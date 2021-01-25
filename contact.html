@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Exercise</title>
 </head>
-<style>
-    .center{
-        text-align: center;
 
-    }
-    .fs25{
-        font-size: 25px;
 
-    }
-    .fs40{
-        font-size: 40px;
+<!--
+TABLE ORNEKLERI
 
-    }
-</style>
+(tr Attribute)rowspan ile altinda bosluk olan hucre ile bos hucreyi birlestirebiliriz. 
+colspan da ayni sekilde yatayda columnlari birlestirir
+-->
+
 <body>
-    <h1 style="text-align: center; font-size:50px;">Contact Information</h1>
-    <p class="center fs40">Kadir Yaren</p>
-    <p class="center fs25"> +90555-555-55-55</p>
-    <p class="center"><i class="fs25">Adress:</i> <b class="fs25"> Pamukkale/Denizli</b> </p> 
-    
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>isim</th>
+                <th>soyisim</th>
+                <th>adres</th>
+                <th>telefon</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>kadir</td>
+                <td colspan="2">yaren</td>
+                
+                <td rowspan="2" > 1234</td>
+            </tr>
+            <tr>
+                <td>kadir</td>
+                <td>yaren</td>
+                <td>denizli</td>
+                
+            </tr>
+        </tbody>
+    </table>
 </body>
+
 </html>
